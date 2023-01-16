@@ -1,13 +1,1 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Casino using "randomness" from the blockhash (from a future block not mined yet) + stable coin backed by ETH collateral, where there are depositors giving liquidity and getting DepositToken and then later they can withdraw this and get more ETH depending on the proportions StableCoin/ETH 
